@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .over-flow{
+            overflow: auto;
+            zoom:1;
+        }
+        .outer{
+            border:1px solid #ccc;
+            background-color: #fc9;
+            margin: 50px auto;
+            padding:50px;
+        }
+        .div1{
+            float: left;
+            width:80px;
+            height: 80px;
+            background-color: red;
+        }
+        .div2{
+            float: left;
+            width:80px;
+            height: 80px;
+            background-color: green;
+        }
+        .div3{
+            float: left;
+            width:80px;
+            height: 80px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="outer over-flow">
+    <div class="div1">1</div>
+    <div class="div2">1</div>
+    <div class="div3">1</div>
+</div>
+</body>
+</html>
